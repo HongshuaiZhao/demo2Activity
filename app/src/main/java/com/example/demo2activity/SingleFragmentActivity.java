@@ -9,7 +9,7 @@ import androidx.fragment.app.FragmentManager;
 /**
  * @description:
  * @author: bytedance
- * @date: 2020-03-25 09:02
+ * @date: 2020-03-24 17:02
  */
 public abstract class SingleFragmentActivity extends AppCompatActivity {
     protected abstract Fragment createFragment();
