@@ -16,6 +16,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
+import java.util.UUID;
 
 /**
  * @description:
@@ -48,6 +49,7 @@ public class CrimeListFragment extends Fragment {
             mAdapter.notifyDataSetChanged();
         }
     }
+
 
     @Override
     public void onResume() {
