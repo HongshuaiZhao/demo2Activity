@@ -16,3 +16,4 @@ fm.beginTransaction().add(R,fragment).commit();
 10. 定义ViewHolder内部类，Adapter内部类，绑定列表项。
 11. 从fragment获取Activity，通过getActivity（）获得，context参数，然后调用startActivity参数
 12. adapter.notifyDataSAetChanged实现动态刷新列表的功能。
+13. 
